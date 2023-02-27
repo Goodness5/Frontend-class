@@ -7,5 +7,5 @@ function Sum(...x) {
     return total;
 }
 
-console.log(Sum(2, 3, 4, 7));
-// console.log(typeof(Sum(3)));
+let result = console.log(Sum(2, 3, 4, 7));
+console.log(typeof(result));

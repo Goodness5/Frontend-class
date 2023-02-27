@@ -3,10 +3,10 @@
 
 function spread(...user) {
     let num = 0;
-    for (const arg in user) {
+    for (const arg of user) {
         num ++;
 
-        result = `user ${num}: ${user}`
+        result = `user ${num}: ${arg}`
     }
     return result;
 }

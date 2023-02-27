@@ -12,15 +12,15 @@
 
 function building (floor) {
   let statement =
-    floor <= 4
+    (floor <= 4)
       ? 'web3bridge'
-      : floor >= 5 && floor < 9
+      : (floor >= 5 && floor < 9)
       ? 'Nigeria'
-      : floor >= 9 && floor < 13
+      : (floor >= 9 && floor < 13)
       ? 'smart contract'
       : 'blockchain'
 
-      return statement;
+    return statement;
 }
 
 console.log(building(16));

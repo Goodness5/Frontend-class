@@ -15,4 +15,4 @@ const users = [
 
 ]
 
-const x = users.map(user, _i) =>
+// const x = users.map(user, _i) =>

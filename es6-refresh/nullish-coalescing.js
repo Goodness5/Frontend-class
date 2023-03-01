@@ -1,8 +1,5 @@
-const userName = undefined;
-const userName2 = "nigeria";
+const userName = "Nigeria";
 
-const user = `welcome, ${userName ?? 'user'}`
-const user2 = `welcome, ${userName2 ?? 'user2'}`
+const user = `Welcome, ${userName ?? "User"}`;
 
 console.log(user);
-console.log(user2);
